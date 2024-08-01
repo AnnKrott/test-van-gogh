@@ -1,0 +1,164 @@
+@media (max-width: 1360px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .footer__col2 {
+        margin-left: 0px;
+    }
+
+    .footer__col3 {
+        margin-left: 0px;
+    }
+
+    .header-bottom__logo {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .header .header-top,
+    .header .header-bottom__list,
+    .header .header-bottom--right {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .footer__disclaimer {
+        display: none;
+    }
+
+    .footer__disclaimer.mobile {
+        display: block;
+        line-height: 2;
+    }
+
+    .footer__col4 {
+        text-align: left;
+    }
+
+    .footer__payment {
+        justify-content: start;
+    }
+
+    .menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+
+    .footer__container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .footer__col2 {
+        display: flex;
+        gap: 60px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .footer__col4 {
+        position: relative;
+        top: -60px;
+    }
+
+    .footer__contacts {
+        margin-top: 0;
+    }
+
+    .footer__disclaimer.mobile {
+        max-width: 400px;
+        padding-top: 45px;
+        padding-left: 30px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card {
+        width: 155px;
+        height: 320px;
+    }
+
+    .card__img {
+        height: 230px;
+    }
+
+    .card__link {
+        padding: 5px 20px;
+    }
+
+    .card__subtitle {
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .card__sale {
+        padding: 2px 14px;
+    }
+
+    .card__price {
+        font-size: 16px;
+    }
+
+    .results__title {
+        margin-bottom: 24px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__col2 .subtitle {
+        margin-bottom: 10px;
+    }
+
+    .footer__col3 .subtitle {
+        margin-top: 40px;
+    }
+
+    .footer__col4 {
+        margin-top: 40px;
+    }
+
+    .footer__disclaimer.mobile {
+        margin-top: 30px;
+    }
+}
